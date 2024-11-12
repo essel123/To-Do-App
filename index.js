@@ -20,7 +20,7 @@ function renderTodos() {
   todoList.innerHTML = "";
 
   todos.forEach(todo => {
-    // Create card elements
+    // Create to-do card elements
     const todoCard = document.createElement("div");
     todoCard.className = "todo-card";
     if (todo.completed) {
