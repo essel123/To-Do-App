@@ -420,7 +420,7 @@ textarea {
 .alert h1{
   font-size: 20px;
   padding: 12px;
-  color: red;
+  color: rgb(227, 62, 62);
 
 }
 .close-btn img {
@@ -434,7 +434,8 @@ textarea {
   max-width: fit-content;
   height: 100px;
   box-sizing: border-box;
-  background: #095601;
- border-top-left-radius: 10px;
+  background: #53de43;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   
 }

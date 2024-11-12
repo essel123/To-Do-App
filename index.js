@@ -128,6 +128,7 @@ document.getElementById("create-btn").addEventListener("click", () => {
     document.getElementById("todo-date").value = "";
   } else {
     document.getElementById("error").style.display = 'flex';
+    
     document.getElementById("close-btn").addEventListener('click',()=>{
       document.getElementById("error").style.display = 'none';
     })
@@ -137,3 +138,15 @@ document.getElementById("create-btn").addEventListener("click", () => {
 document.getElementById("filter-date").addEventListener("change", event => {
   filterTodos(event.target.value);
 });
+
+
+document.addEventListener('keydown',event =>{
+  if(event.key === "Escape"){
+    document.getElementById("error").style.display = 'none';
+  }
+})
+
+
+ 
+
+
